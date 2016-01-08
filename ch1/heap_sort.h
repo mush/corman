@@ -23,6 +23,7 @@ private:
     }
     
     void minHeapify(int i){
+        
         int min = i;
         int l = left(i);
         int r = right(i);
@@ -42,7 +43,7 @@ private:
     
     void buildHeap(){
         heapsize = A.size();
-        for(int i = A.size()/2; i >= 0; i--){
+        for(int i = A.size()/2 - 1; i >= 0; i--){
             minHeapify(i);
         }
     }
