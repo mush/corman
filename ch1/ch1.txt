@@ -1,1 +1,1 @@
-./Debug/main.cpp.o ./Debug/selection_sort.cpp.o ./Debug/merge_sort.cpp.o
+./Debug/main.cpp.o ./Debug/selection_sort.cpp.o ./Debug/merge_sort.cpp.o ./Debug/heap_sort.cpp.o

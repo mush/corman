@@ -2,7 +2,7 @@
 #define MERGE_SORT_H
 
 #include <vector>
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class merge_sort
