@@ -1,4 +1,6 @@
 \.DS_Store
 \.clang
 \.codelite
+*\.mk
+*\.project
 **/debug/**
