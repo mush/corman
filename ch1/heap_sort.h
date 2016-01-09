@@ -24,9 +24,12 @@ private:
     
     void minHeapify(int i){
         
+        //todo: non recursize apporach of minheapify
+        
         int min = i;
         int l = left(i);
         int r = right(i);
+
         if(l < heapsize && A[l] < A[i]){
             min = l;
         }
